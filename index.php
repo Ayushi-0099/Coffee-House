@@ -40,21 +40,6 @@ if(isset($_POST['send'])){
 </head>
 <body>
 
-<?php
-
-if(isset($message)){
-   foreach($message as $message){
-      echo '
-      <div class="message">
-         <span>'.$message.'</span>
-         <i class="fas fa-times" onclick="this.parentElement.remove();"></i>
-      </div>
-      ';
-   }
-}
-
-?>
-
 <!-- header section starts  -->
 
 <header class="header">
@@ -288,7 +273,7 @@ if(isset($message)){
          <input type="text" name="name" required class="box" maxlength="20" placeholder="enter your name">
          <input type="number" name="number" required class="box" maxlength="20" placeholder="enter your number" min="6000000000" max="9999999999" onkeypress="if(this.value.length == 10) return false">
          <input type="number" name="guests" required class="box" maxlength="20" placeholder="how many guests" min="0" max="99" onkeypress="if(this.value.length == 2) return false">
-        <a href="send.html"> <button type="button" value="Send Message" name="send"></button></a>
+        <input type="submit" name="send" value="send message" class="btn">
          
       </form>
 
