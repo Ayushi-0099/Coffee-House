@@ -44,7 +44,7 @@ if(isset($_POST['send'])){
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="https://github.com/Ayushi-0099/Coffee-House/blob/main/style.css">
+   <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
@@ -70,7 +70,7 @@ if(isset($message)){
 
    <section class="flex">
 
-      <a href="#home" class="logo"><img src="images/logo.png" alt=""></a>
+      <a href="#home" class="logo"><img src="logo.png" alt=""></a>
 
       <nav class="navbar">
          <a href="#home">home</a>
@@ -112,7 +112,7 @@ if(isset($message)){
 <section class="about" id="about">
 
    <div class="image">
-      <img src="images/about-img.svg" alt="">
+      <img src="about-img.svg" alt="">
    </div>
 
    <div class="content">
@@ -130,32 +130,32 @@ if(isset($message)){
 <section class="facility">
 
    <div class="heading">
-      <img src="images/heading-img.png" alt="">
+      <img src="heading-img.png" alt="">
       <h3>our facility</h3>
    </div>
 
    <div class="box-container">
 
       <div class="box">
-         <img src="images/icon-1.png" alt="">
+         <img src="icon-1.png" alt="">
          <h3>varieties of coffees</h3>
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, adipisci!</p>
       </div>
 
       <div class="box">
-         <img src="images/icon-2.png" alt="">
+         <img src="icon-2.png" alt="">
          <h3>coffee beans</h3>
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, adipisci!</p>
       </div>
 
       <div class="box">
-         <img src="images/icon-3.png" alt="">
+         <img src="icon-3.png" alt="">
          <h3>breakfast and sweets</h3>
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, adipisci!</p>
       </div>
 
       <div class="box">
-         <img src="images/icon-4.png" alt="">
+         <img src="icon-4.png" alt="">
          <h3>read to go coffee</h3>
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, adipisci!</p>
       </div>
@@ -171,39 +171,39 @@ if(isset($message)){
 <section class="menu" id="menu">
 
    <div class="heading">
-      <img src="images/heading-img.png" alt="">
+      <img src="heading-img.png" alt="">
       <h3>popular menu</h3>
    </div>
 
    <div class="box-container">
 
       <div class="box">
-         <img src="images/menu-1.png" alt="">
+         <img src="menu-1.png" alt="">
          <h3>love you coffee</h3>
       </div>
 
       <div class="box">
-         <img src="images/menu-2.png" alt="">
+         <img src="menu-2.png" alt="">
          <h3>Cappuccino</h3>
       </div>
 
       <div class="box">
-         <img src="images/menu-3.png" alt="">
+         <img src="menu-3.png" alt="">
          <h3>Mocha coffee</h3>
       </div>
 
       <div class="box">
-         <img src="images/menu-4.png" alt="">
+         <img src="menu-4.png" alt="">
          <h3>Frappuccino</h3>
       </div>
 
       <div class="box">
-         <img src="images/menu-5.png" alt="">
+         <img src="menu-5.png" alt="">
          <h3>black coffee</h3>
       </div>
 
       <div class="box">
-         <img src="images/menu-6.png" alt="">
+         <img src="menu-6.png" alt="">
          <h3>love heart coffee</h3>
       </div>
 
@@ -218,17 +218,17 @@ if(isset($message)){
 <section class="gallery" id="gallery">
 
    <div class="heading">
-      <img src="images/heading-img.png" alt="">
+      <img src="heading-img.png" alt="">
       <h3>our gallery</h3>
    </div>
 
    <div class="box-container">
-      <img src="images/gallery-1.webp" alt="">
-      <img src="images/gallery-2.webp" alt="">
-      <img src="images/gallery-3.webp" alt="">
-      <img src="images/gallery-4.webp" alt="">
-      <img src="images/gallery-5.webp" alt="">
-      <img src="images/gallery-6.webp" alt="">
+      <img src="gallery-1.webp" alt="">
+      <img src="gallery-2.webp" alt="">
+      <img src="gallery-3.webp" alt="">
+      <img src="gallery-4.webp" alt="">
+      <img src="gallery-5.webp" alt="">
+      <img src="gallery-6.webp" alt="">
    </div>
 
 </section>
@@ -240,34 +240,34 @@ if(isset($message)){
 <section class="team" id="team">
 
    <div class="heading">
-      <img src="images/heading-img.png" alt="">
+      <img src="heading-img.png" alt="">
       <h3>our team</h3>
    </div>
 
    <div class="box-container">
 
       <div class="box">
-         <img src="images/our-team-1.jpg" alt="">
+         <img src="our-team-1.jpg" alt="">
          <h3>john deo</h3>
       </div>
       <div class="box">
-         <img src="images/our-team-2.jpg" alt="">
+         <img src="our-team-2.jpg" alt="">
          <h3>john deo</h3>
       </div>
       <div class="box">
-         <img src="images/our-team-3.jpg" alt="">
+         <img src="our-team-3.jpg" alt="">
          <h3>john deo</h3>
       </div>
       <div class="box">
-         <img src="images/our-team-4.jpg" alt="">
+         <img src="our-team-4.jpg" alt="">
          <h3>john deo</h3>
       </div>
       <div class="box">
-         <img src="images/our-team-5.jpg" alt="">
+         <img src="our-team-5.jpg" alt="">
          <h3>john deo</h3>
       </div>
       <div class="box">
-         <img src="images/our-team-6.jpg" alt="">
+         <img src="our-team-6.jpg" alt="">
          <h3>john deo</h3>
       </div>
 
@@ -282,14 +282,14 @@ if(isset($message)){
 <section class="contact" id="contact">
 
    <div class="heading">
-      <img src="images/heading-img.png" alt="">
+      <img src="heading-img.png" alt="">
       <h3>contact us</h3>
    </div>
 
    <div class="row">
 
       <div class="image">
-         <img src="images/contact-img.svg" alt="">
+         <img src="contact-img.svg" alt="">
       </div>
 
       <form action="" method="post">
@@ -343,7 +343,7 @@ if(isset($message)){
 
 <!-- footer section ends -->
 <!-- custom js file link  -->
-<script src="https://github.com/Ayushi-0099/Coffee-House/blob/main/script.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
