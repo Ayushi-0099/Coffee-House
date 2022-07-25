@@ -2,7 +2,6 @@ Shortcuts simplify My Drive …
 In the coming weeks, items in more than one folder will be replaced by shortcuts. Access to files and folders won't change.Learn more
 <?php
 
-$db_name = 'mysql:host=localhost;dbname=contact_db';
 $username = 'root';
 $password = '';
 
@@ -19,14 +18,6 @@ if(isset($_POST['send'])){
 
    $select_contact = $conn->prepare("SELECT * FROM `contact_form` WHERE name = ? AND number = ? AND guests = ?");
    $select_contact->execute([$name, $number, $guests]);
-
-   if($select_contact->rowCount() > 0){
-      $message[] = 'message sent already!';
-   }else{
-      $insert_contact = $conn->prepare("INSERT INTO `contact_form`(name, number, guests) VALUES(?,?,?)");
-      $insert_contact->execute([$name, $number, $guests]);
-      $message[] = 'message sent successfully!';
-   }
 
 }
 
