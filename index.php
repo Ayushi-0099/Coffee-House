@@ -44,7 +44,7 @@ if(isset($_POST['send'])){
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="https://github.com/Ayushi-0099/Coffee-House/blob/main/style.css">
 
 </head>
 <body>
@@ -343,7 +343,7 @@ if(isset($message)){
 
 <!-- footer section ends -->
 <!-- custom js file link  -->
-<script src="js/script.js"></script>
+<script src="https://github.com/Ayushi-0099/Coffee-House/blob/main/script.js"></script>
 
 </body>
 </html>
