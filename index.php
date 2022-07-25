@@ -2,27 +2,6 @@ Shortcuts simplify My Drive …
 In the coming weeks, items in more than one folder will be replaced by shortcuts. Access to files and folders won't change.Learn more
 <?php
 
-$username = 'root';
-$password = '';
-
-$conn = new PDO($db_name, $username, $password);
-
-if(isset($_POST['send'])){
-
-   $name = $_POST['name'];
-   $name = filter_var($name, FILTER_SANITIZE_STRING);
-   $number = $_POST['number'];
-   $number = filter_var($number, FILTER_SANITIZE_STRING);
-   $guests = $_POST['guests'];
-   $guests = filter_var($guests, FILTER_SANITIZE_STRING);
-
-   $select_contact = $conn->prepare("SELECT * FROM `contact_form` WHERE name = ? AND number = ? AND guests = ?");
-   $select_contact->execute([$name, $number, $guests]);
-
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -273,7 +252,7 @@ if(isset($_POST['send'])){
          <input type="text" name="name" required class="box" maxlength="20" placeholder="enter your name">
          <input type="number" name="number" required class="box" maxlength="20" placeholder="enter your number" min="6000000000" max="9999999999" onkeypress="if(this.value.length == 10) return false">
          <input type="number" name="guests" required class="box" maxlength="20" placeholder="how many guests" min="0" max="99" onkeypress="if(this.value.length == 2) return false">
-        <input type="submit" name="send" value="send message" class="btn">
+        <input type="submit" name="send" value="send message" href="send.html" class="btn">
          
       </form>
 
