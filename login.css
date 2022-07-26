@@ -6,7 +6,7 @@ body{
 	align-items: center;
 	min-height: 103vh;
 	font-family: 'Jost', sans-serif;
-	background-image: url("C:\Users\HP\Downloads\Coffee House\Images\home-bg.jpg");
+	background-image: url("home-bg.jpg");
 	background-repeat: repeat;
 }
 .main{
