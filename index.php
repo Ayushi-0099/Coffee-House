@@ -251,7 +251,7 @@ In the coming weeks, items in more than one folder will be replaced by shortcuts
          <h3>book a table</h3>
          <input type="text" name="name" required class="box" maxlength="20" placeholder="enter your name">
          <input type="number" name="number" required class="box" maxlength="20" placeholder="enter your number" min="6000000000" max="9999999999" onkeypress="if(this.value.length == 10) return false">
-         <input type="number" name="guests" required class="box" maxlength="20" placeholder="how many guests" min="0" max="99" onkeypress="if(this.value.length == 2) return false">
+         <input type="number" name="guests" required class="box" maxlength="20" placeholder="how many guests" min="0" max="10" onkeypress="if(this.value.length == 2) return false">
         <input type="submit" name="send" value="send message" href="send.html" class="btn">
          
       </form>
