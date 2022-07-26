@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="images/user.png" type="image/gif" />
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="C:\Users\HP\Downloads\Coffee House\login.css">
+</head>
+<body>
+	<div class="main">
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup">
+				<form>
+					<label for="chk" aria-hidden="true">Sign up</label>
+					<input id="usr"  type="text" name="txt" placeholder="User name" required="">
+					<input id="mail" type="email" name="email" placeholder="Email" required="">
+					<input id="pass" type="password" name="pswd" placeholder="Password" required="">
+                    <input id="phn"  type="tel" name="phone" placeholder="Phone">
+					<button onclick="storeData()">Sign up</button>
+				</form>
+			</div>
+
+			<div class="login">
+				<form>
+					<label for="chk" aria-hidden="true">Login</label>
+					<input id="mail" type="email" name="email" placeholder="Email" required="">
+					<input id="pass" type="password" name="pswd" placeholder="Password" required="">
+					<button onclick="loginData">Login</button>
+				</form>
+			</div>
+	</div>
+
+	<script src="C:\Users\HP\Downloads\Coffee House\login.js"></script>
+</body>
+
+</html>
